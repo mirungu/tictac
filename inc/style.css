@@ -1,0 +1,38 @@
+
+body {
+	margin: auto;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Verdana;
+}
+
+
+
+/* format the board */
+#board {
+	margin: auto;
+	width: 216px;
+}
+
+.board_cell {
+	float: left;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+.board_cell select{
+	margin-top: 25px;
+}
+
+.break {
+	clear: both;
+}
+
+/* wrapper around all game content */
+#content {
+	margin: auto;
+	padding: 10px;
+	width: 60%;
+}
